@@ -25,7 +25,7 @@ public class LoginTestcase extends Fbbaseclass {
 	@DataProvider
 	public Object[][] fbdata()
 	{												
-		Exceldata config = new Exceldata("C:\\Newxlfiles\\GithubLogin.xlsx");
+		Exceldata config = new Exceldata("C:\\Users\\Admin\\OneDrive\\Desktop\\Facebooktest\\excelshhet\\GithubLogin.xlsx");
 		int row = config.getrowcount(0);
 		Object[][] data = new Object[row][2];
 		

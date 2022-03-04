@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T19:29:02 IST" name="Suite" finished-at="2022-03-04T19:29:17 IST" duration-ms="14968">
+    <groups>
+    </groups>
+    <test started-at="2022-03-04T19:29:02 IST" name="Facebook loginpage Test" finished-at="2022-03-04T19:29:17 IST" duration-ms="14968">
+      <class name="Testcases.LoginTestcase">
+        <test-method signature="init(java.lang.String,java.lang.String)[pri:0, instance:Testcases.LoginTestcase@194bcebf]" started-at="2022-03-04T19:29:06 IST" name="init" data-provider="fbdata" finished-at="2022-03-04T19:29:17 IST" duration-ms="11488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Durgaprasad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[durga1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- Testcases.LoginTestcase -->
+      <class name="Testcases.Fbbaseclass">
+        <test-method is-config="true" signature="drivermanage()[pri:0, instance:Testcases.Fbbaseclass@6392827e]" started-at="2022-03-04T19:28:42 IST" name="drivermanage" finished-at="2022-03-04T19:29:02 IST" duration-ms="19954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drivermanage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Fbbaseclass@6392827e]" started-at="2022-03-04T19:29:17 IST" name="teardown" finished-at="2022-03-04T19:29:18 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Fbbaseclass -->
+    </test> <!-- Facebook loginpage Test -->
+  </suite> <!-- Suite -->
+</testng-results>
